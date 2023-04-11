@@ -1,0 +1,16 @@
+@import './base.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.shade1{
+  width: 100vw;
+  height: 1000px;
+  @apply bg-black
+  bg-opacity-50 
+}
+
+.centree{
+  @apply flex flex-row justify-center
+}
